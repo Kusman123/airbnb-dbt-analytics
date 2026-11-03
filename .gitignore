@@ -1,0 +1,21 @@
+# Virtual Environment
+airbnb_env/
+.venv/
+
+# dbt generated files & logs (at root level)
+logs/
+target/
+dbt_packages/
+
+# DuckDB database files (very important!)
+*.duckdb
+*.duckdb.wal
+dev.duckdb
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Credentials (if you ever add them locally)
+profiles.yml
+.env
